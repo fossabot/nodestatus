@@ -40,3 +40,14 @@ export type IResp = {
   msg: string
 }
 
+export type Config = {
+  interval: number;
+  usePush: boolean;
+  telegram?: {
+    bot_token?: string;
+    chat_id?: string;
+    web_hook?: string;
+    proxy?: string;
+  }
+}
+

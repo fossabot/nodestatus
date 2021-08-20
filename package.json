@@ -51,9 +51,12 @@
     "chalk": "^4.1.2",
     "commander": "^8.1.0",
     "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
     "eslint": "^7.32.0",
+    "https-proxy-agent": "^5.0.0",
     "i18n-iso-countries": "^6.8.0",
     "inquirer": "^8.1.2",
+    "ipaddr.js": "^2.0.1",
     "koa": "^2.13.1",
     "koa-mount": "^4.0.0",
     "koa-static": "^5.0.0",
@@ -63,6 +66,7 @@
     "rollup": "^2.56.2",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-typescript2": "^0.30.0",
+    "telegraf": "^4.4.1",
     "typescript": "^4.3.5",
     "utf-8-validate": "^5.0.5",
     "webpack": "4",
@@ -71,9 +75,9 @@
   "dependencies": {
     "figlet": "^1.5.2",
     "readable-stream": "^3.6.0",
+    "reflect-metadata": "^0.1.13",
     "sequelize": "^6.6.5",
     "sequelize-typescript": "^2.1.0",
-    "sqlite3": "^5.0.2",
-    "reflect-metadata": "^0.1.13"
+    "sqlite3": "^5.0.2"
   }
 }
